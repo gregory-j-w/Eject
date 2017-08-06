@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SMKCommunicationsCollectionViewController.h
 //  Eject
 //
 //  Created by Scott Kenealy on 8/5/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SMKCommunicationsCollectionViewController : UICollectionViewController
 
 @end
-

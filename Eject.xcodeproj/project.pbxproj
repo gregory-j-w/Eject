@@ -7,25 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		532E2B38FAB0BB8C6094627D /* libPods-Eject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F983FB48C99EBDF6DEAFD004 /* libPods-Eject.a */; };
+		8723B61F1F36796200E6DAFD /* SMKCreditCardsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8723B61E1F36796200E6DAFD /* SMKCreditCardsController.m */; };
+		8723B6221F3688AE00E6DAFD /* SMKWearablesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8723B6211F3688AE00E6DAFD /* SMKWearablesCollectionViewController.m */; };
+		8723B6251F368B2600E6DAFD /* SMKHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8723B6241F368B2600E6DAFD /* SMKHomeController.m */; };
+		8723B6281F368C5900E6DAFD /* SMKSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8723B6271F368C5900E6DAFD /* SMKSetupViewController.m */; };
+		8723B62B1F36950B00E6DAFD /* SMKMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8723B62A1F36950B00E6DAFD /* SMKMapViewController.m */; };
+		8723B62D1F36969700E6DAFD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8723B62C1F36969700E6DAFD /* MapKit.framework */; };
 		87540E461F36571700C50B1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87540E451F36571700C50B1E /* main.m */; };
 		87540E491F36571700C50B1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87540E481F36571700C50B1E /* AppDelegate.m */; };
-		87540E4C1F36571700C50B1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87540E4B1F36571700C50B1E /* ViewController.m */; };
 		87540E4F1F36571700C50B1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87540E4D1F36571700C50B1E /* Main.storyboard */; };
 		87540E511F36571700C50B1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87540E501F36571700C50B1E /* Assets.xcassets */; };
 		87540E541F36571700C50B1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87540E521F36571700C50B1E /* LaunchScreen.storyboard */; };
+		87540E601F365D3400C50B1E /* SMKCommunicationsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87540E5F1F365D3400C50B1E /* SMKCommunicationsCollectionViewController.m */; };
+		87540E631F3665A100C50B1E /* SMKGenericCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87540E621F3665A100C50B1E /* SMKGenericCollectionViewCell.m */; };
+		87540E691F366AE500C50B1E /* SMKPaymentCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87540E681F366AE500C50B1E /* SMKPaymentCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		439D527B68A7A66DBACD0AD9 /* Pods-Eject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eject/Pods-Eject.debug.xcconfig"; sourceTree = "<group>"; };
+		43FA6F7E3480543DB7D375DF /* Pods-Eject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eject.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eject/Pods-Eject.release.xcconfig"; sourceTree = "<group>"; };
+		8723B61D1F36796200E6DAFD /* SMKCreditCardsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMKCreditCardsController.h; sourceTree = "<group>"; };
+		8723B61E1F36796200E6DAFD /* SMKCreditCardsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMKCreditCardsController.m; sourceTree = "<group>"; };
+		8723B6201F3688AE00E6DAFD /* SMKWearablesCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMKWearablesCollectionViewController.h; sourceTree = "<group>"; };
+		8723B6211F3688AE00E6DAFD /* SMKWearablesCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMKWearablesCollectionViewController.m; sourceTree = "<group>"; };
+		8723B6231F368B2600E6DAFD /* SMKHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMKHomeController.h; sourceTree = "<group>"; };
+		8723B6241F368B2600E6DAFD /* SMKHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMKHomeController.m; sourceTree = "<group>"; };
+		8723B6261F368C5900E6DAFD /* SMKSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMKSetupViewController.h; sourceTree = "<group>"; };
+		8723B6271F368C5900E6DAFD /* SMKSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMKSetupViewController.m; sourceTree = "<group>"; };
+		8723B6291F36950B00E6DAFD /* SMKMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMKMapViewController.h; sourceTree = "<group>"; };
+		8723B62A1F36950B00E6DAFD /* SMKMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMKMapViewController.m; sourceTree = "<group>"; };
+		8723B62C1F36969700E6DAFD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		87540E411F36571700C50B1E /* Eject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87540E451F36571700C50B1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		87540E471F36571700C50B1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87540E481F36571700C50B1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		87540E4A1F36571700C50B1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		87540E4B1F36571700C50B1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		87540E4E1F36571700C50B1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87540E501F36571700C50B1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87540E531F36571700C50B1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87540E551F36571700C50B1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87540E5E1F365D3400C50B1E /* SMKCommunicationsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMKCommunicationsCollectionViewController.h; sourceTree = "<group>"; };
+		87540E5F1F365D3400C50B1E /* SMKCommunicationsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMKCommunicationsCollectionViewController.m; sourceTree = "<group>"; };
+		87540E611F3665A100C50B1E /* SMKGenericCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMKGenericCollectionViewCell.h; sourceTree = "<group>"; };
+		87540E621F3665A100C50B1E /* SMKGenericCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMKGenericCollectionViewCell.m; sourceTree = "<group>"; };
+		87540E671F366AE500C50B1E /* SMKPaymentCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMKPaymentCollectionViewController.h; sourceTree = "<group>"; };
+		87540E681F366AE500C50B1E /* SMKPaymentCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMKPaymentCollectionViewController.m; sourceTree = "<group>"; };
+		F983FB48C99EBDF6DEAFD004 /* libPods-Eject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Eject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +60,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8723B62D1F36969700E6DAFD /* MapKit.framework in Frameworks */,
+				532E2B38FAB0BB8C6094627D /* libPods-Eject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A131586C3F372C6748A24FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				439D527B68A7A66DBACD0AD9 /* Pods-Eject.debug.xcconfig */,
+				43FA6F7E3480543DB7D375DF /* Pods-Eject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		46BE1010AEA99C126FAE2CD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8723B62C1F36969700E6DAFD /* MapKit.framework */,
+				F983FB48C99EBDF6DEAFD004 /* libPods-Eject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		87540E381F36571700C50B1E = {
 			isa = PBXGroup;
 			children = (
 				87540E431F36571700C50B1E /* Eject */,
 				87540E421F36571700C50B1E /* Products */,
+				2A131586C3F372C6748A24FA /* Pods */,
+				46BE1010AEA99C126FAE2CD1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +107,25 @@
 		87540E431F36571700C50B1E /* Eject */ = {
 			isa = PBXGroup;
 			children = (
+				87540E5E1F365D3400C50B1E /* SMKCommunicationsCollectionViewController.h */,
+				87540E5F1F365D3400C50B1E /* SMKCommunicationsCollectionViewController.m */,
+				87540E671F366AE500C50B1E /* SMKPaymentCollectionViewController.h */,
+				87540E681F366AE500C50B1E /* SMKPaymentCollectionViewController.m */,
+				87540E611F3665A100C50B1E /* SMKGenericCollectionViewCell.h */,
+				87540E621F3665A100C50B1E /* SMKGenericCollectionViewCell.m */,
 				87540E471F36571700C50B1E /* AppDelegate.h */,
 				87540E481F36571700C50B1E /* AppDelegate.m */,
-				87540E4A1F36571700C50B1E /* ViewController.h */,
-				87540E4B1F36571700C50B1E /* ViewController.m */,
 				87540E4D1F36571700C50B1E /* Main.storyboard */,
+				8723B6231F368B2600E6DAFD /* SMKHomeController.h */,
+				8723B6241F368B2600E6DAFD /* SMKHomeController.m */,
+				8723B6291F36950B00E6DAFD /* SMKMapViewController.h */,
+				8723B62A1F36950B00E6DAFD /* SMKMapViewController.m */,
+				8723B6261F368C5900E6DAFD /* SMKSetupViewController.h */,
+				8723B6271F368C5900E6DAFD /* SMKSetupViewController.m */,
+				8723B6201F3688AE00E6DAFD /* SMKWearablesCollectionViewController.h */,
+				8723B6211F3688AE00E6DAFD /* SMKWearablesCollectionViewController.m */,
+				8723B61D1F36796200E6DAFD /* SMKCreditCardsController.h */,
+				8723B61E1F36796200E6DAFD /* SMKCreditCardsController.m */,
 				87540E501F36571700C50B1E /* Assets.xcassets */,
 				87540E521F36571700C50B1E /* LaunchScreen.storyboard */,
 				87540E551F36571700C50B1E /* Info.plist */,
@@ -86,9 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87540E581F36571700C50B1E /* Build configuration list for PBXNativeTarget "Eject" */;
 			buildPhases = (
+				0C07E700BFA408819F95FE18 /* [CP] Check Pods Manifest.lock */,
 				87540E3D1F36571700C50B1E /* Sources */,
 				87540E3E1F36571700C50B1E /* Frameworks */,
 				87540E3F1F36571700C50B1E /* Resources */,
+				B8BAF04B2DCA8CBDCD3163B4 /* [CP] Embed Pods Frameworks */,
+				D1BF8353A0BB0CA78647FE18 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,8 +176,13 @@
 				TargetAttributes = {
 					87540E401F36571700C50B1E = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 2N8K72G8QM;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = DAHGTV492K;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -146,14 +217,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C07E700BFA408819F95FE18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8BAF04B2DCA8CBDCD3163B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eject/Pods-Eject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1BF8353A0BB0CA78647FE18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eject/Pods-Eject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		87540E3D1F36571700C50B1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87540E4C1F36571700C50B1E /* ViewController.m in Sources */,
+				8723B6281F368C5900E6DAFD /* SMKSetupViewController.m in Sources */,
+				87540E631F3665A100C50B1E /* SMKGenericCollectionViewCell.m in Sources */,
+				87540E601F365D3400C50B1E /* SMKCommunicationsCollectionViewController.m in Sources */,
+				8723B61F1F36796200E6DAFD /* SMKCreditCardsController.m in Sources */,
 				87540E491F36571700C50B1E /* AppDelegate.m in Sources */,
+				8723B6221F3688AE00E6DAFD /* SMKWearablesCollectionViewController.m in Sources */,
 				87540E461F36571700C50B1E /* main.m in Sources */,
+				8723B62B1F36950B00E6DAFD /* SMKMapViewController.m in Sources */,
+				8723B6251F368B2600E6DAFD /* SMKHomeController.m in Sources */,
+				87540E691F366AE500C50B1E /* SMKPaymentCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,25 +400,32 @@
 		};
 		87540E591F36571700C50B1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 439D527B68A7A66DBACD0AD9 /* Pods-Eject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2N8K72G8QM;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Scott Kenealy (2JK6HERUHL)";
+				DEVELOPMENT_TEAM = DAHGTV492K;
 				INFOPLIST_FILE = Eject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.skenealy.Eject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d22bcfcf-50ec-46ac-81a7-044a1a6467d4";
+				PROVISIONING_PROFILE_SPECIFIER = "Kenealy developer wildcard";
 			};
 			name = Debug;
 		};
 		87540E5A1F36571700C50B1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43FA6F7E3480543DB7D375DF /* Pods-Eject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2N8K72G8QM;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Scott Kenealy (2JK6HERUHL)";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Eject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.skenealy.Eject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -312,6 +448,7 @@
 				87540E5A1F36571700C50B1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
